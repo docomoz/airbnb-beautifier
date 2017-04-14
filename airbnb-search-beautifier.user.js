@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Airbnb search beautifier
+// @name         airbnb search beautifier
 // @namespace    http://docomoz.com
 // @version      0.1
 // @description  Makes search results map bigger for a better user experience
