@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Makes search results map bigger for a better user experience
 // @author       Maxim Berezkin
-// @include      /^https?://(www\.)?airbnb\.(\w{2-3}\.)?\w+\/.*$/
+// @include      /^https?://(.+\.)?airbnb\.(\w{2-3}\.)?\w+\/.*$/
 // @grant        none
 // ==/UserScript==
 
