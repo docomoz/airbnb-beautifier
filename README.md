@@ -3,7 +3,7 @@ The simple userscript that makes Airbnb search results map bigger.
 
 By default, Airbnb displays city map with a width of 40% of your screen. Using this script, you can increase the map to 70%, and get an incredible user experience.
 
-I once spent the whole day trying to find an apartment with this little map window. This solution came from that pain.
+I once spent the whole day trying to find an apartment with this little map area. The solution came from that pain. Enjoy!
 
 ## How does results map look like with this script? ##
 ![Airbnb with a big results map](https://dl.dropboxusercontent.com/u/17113606/airbnb-gets-better.png)
