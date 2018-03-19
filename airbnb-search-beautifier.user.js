@@ -21,8 +21,11 @@
         if(/^s\//.test(path)) {
             var element = document.getElementsByClassName('search-results-map');
             if(element.length) {
-                element[0].parentNode.style.cssText = 'width: ' + size.map + ' !important';
-                element[0].parentNode.previousSibling.style.cssText = 'width: ' + size.panel + ' !important';
+                element[0].parentNode.style.cssText = "width: auto !important;";
+
+                var pn = element[0].parentNode.parentNode.parentNode.parentNode.parentNode;
+                pn.style.cssText = 'width: ' + size.map + ' !important';
+                pn.previousSibling.style.cssText = 'width: ' + size.panel + ' !important';
 
                 window.dispatchEvent(new Event('resize'));
                 element = document.getElementsByClassName('gm-bundled-control');
